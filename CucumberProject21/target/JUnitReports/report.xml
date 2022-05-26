@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="14.349">
+    <testcase classname="feature To Test Background Colors" name="Change Color To Blue" time="7.376">
+        <system-out><![CDATA[Given Set SkyBlue Background button exists..................................passed
+When I click on the blue button.............................................passed
+Then the background color will change to sky blue...........................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature To Test Background Colors" name="Change Color To White" time="6.825">
+        <system-out><![CDATA[Given Set SkyWhite Background button exists.................................passed
+When I click on the white button............................................passed
+Then the background color change to white...................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

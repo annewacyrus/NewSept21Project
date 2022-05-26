@@ -1,0 +1,151 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-25T00:36:34.775Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1995378500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BackgroundColorSteps.beforeRun()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Change Color To Blue",
+        "description": "",
+        "id": "feature-to-test-background-colors;change-color-to-blue",
+        "after": [
+          {
+            "result": {
+              "duration": 226906400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BackgroundColorSteps.AfterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 46593300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Set SkyBlue Background button exists",
+            "match": {
+              "location": "stepDefinitions.BackgroundColorSteps.set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5044228300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the blue button",
+            "match": {
+              "location": "stepDefinitions.BackgroundColorSteps.i_click_on_the_blue_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 21469500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the background color will change to sky blue",
+            "match": {
+              "location": "stepDefinitions.BackgroundColorSteps.the_background_color_will_change_to_sky_blue()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-25T00:36:42.158Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1490597500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BackgroundColorSteps.beforeRun()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Change Color To White",
+        "description": "",
+        "id": "feature-to-test-background-colors;change-color-to-white",
+        "after": [
+          {
+            "result": {
+              "duration": 208897200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BackgroundColorSteps.AfterRun()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 32700700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Set SkyWhite Background button exists",
+            "match": {
+              "location": "stepDefinitions.BackgroundColorSteps.set_SkyWhite_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5073960800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the white button",
+            "match": {
+              "location": "stepDefinitions.BackgroundColorSteps.i_click_on_the_white_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 18462900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the background color change to white",
+            "match": {
+              "location": "stepDefinitions.BackgroundColorSteps.the_background_color_change_to_white()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature To Test Background Colors",
+    "description": "",
+    "id": "feature-to-test-background-colors",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ColorBackground.feature",
+    "tags": []
+  }
+]
